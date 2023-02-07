@@ -10,7 +10,7 @@ connection = mysql.connector.connect(
 
 cursor=connection.cursor()
 
-sql='INSERT INTO matricula(RA,nome,nota,freq) VALUES(10, "Larissa", 10, 75)'
+sql='INSERT INTO matricula(RA,nome,nota,freq) VALUES(10, "Larilza", 10, 75)'
 sql1='INSERT INTO matricula(RA,nome,nota,freq) VALUES(12, "Morgana", 7, 20)'
 sql2='INSERT INTO matricula(RA,nome,nota,freq) VALUES(14, "Yasuo", 6, 30)'
 sql3='INSERT INTO matricula(RA,nome,nota,freq) VALUES(16, "Yone", 8, 100)'
